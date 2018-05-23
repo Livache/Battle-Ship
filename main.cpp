@@ -64,11 +64,11 @@ Buton acc("Save", 200, 460);
 Buton doi("Nava2", 650, 260);
 
 
-const char *nume = "Atacati.";
+char *nume = "Atacati.";
 
 int patrate = 0;
 
-const char *Conexiune;
+char *Conexiune;
 
 void displaymeniu();
 void joc2();
