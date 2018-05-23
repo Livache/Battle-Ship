@@ -6,7 +6,7 @@ Buton::Buton()
 
 }
 
-Buton::Buton(const char* s, int x1, int y1) :nume(s), x(x1), y(y1)
+Buton::Buton(char* s, int x1, int y1) :nume(s), x(x1), y(y1)
 {
 
 }
