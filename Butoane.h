@@ -8,7 +8,7 @@
 class Buton
 {
 private:
-	const char *nume;
+	char *nume;
 	int x;
 	int y;
 	bool apasat = false;
@@ -17,7 +17,7 @@ private:
 public:
 
 	Buton();
-	Buton(const char* s, int x1, int y1);
+	Buton(char* s, int x1, int y1);
 
 	void render();
 
